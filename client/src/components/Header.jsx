@@ -10,16 +10,15 @@ const Header = () => {
 
   return (
     <Navbar className="border-b-2">
-      {/* Updated Font Size and Styling for Branding */}
       <Link
         to="/"
-        className="self-center whitespace-nowrap text-lg sm:text-2xl font-semibold dark:text-white"
+        className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
         style={{ fontFamily: 'Playfair Display, serif' }} // Elegant Serif font for branding
       >
-        <span className="px-3 py-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white text-2xl sm:text-3xl"> 
+        <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
           Debugged
         </span>
-        <span className="ml-1">World</span> {/* Spacing adjusted for better balance */}
+        World
       </Link>
       
       {/* Search form */}
