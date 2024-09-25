@@ -47,7 +47,7 @@ const Header = () => {
 
         {/* Sign In button */}
         <Link to="/sign-in">
-          <Button gradientDuoTone="purpleToBlue" style={{ fontFamily: 'Poppins, sans-serif' }}> {/* Font added */}
+          <Button gradientDuoTone="purpleToBlue" style={{ fontFamily: 'Poppins, sans-serif' }} outline> {/* Font added */}
             Sign In
           </Button>
         </Link>
